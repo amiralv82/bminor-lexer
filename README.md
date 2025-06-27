@@ -35,7 +35,7 @@ gcc -std=c99 -Wall -Wextra -o compiler lexer.c
 
 Usage
 ```bash
-./compiler samples/hello.bminor
+./compiler input.txt
 ```
 Sample output
 ```
