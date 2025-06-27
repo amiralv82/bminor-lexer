@@ -79,3 +79,7 @@ Inspired by the Bminor language used in University of Wisconsin–Madison compil
 Escape-sequence logic follows the C99 specification.
 
 ---
+Author
+
+Amir-Abbas Alvand
+Feel free to connect on GitHub or reach out with feedback!
