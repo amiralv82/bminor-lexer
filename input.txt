@@ -1,0 +1,27 @@
+puts: function void ( s: string );
+/* salammmm */
+main: function integer () = {
+    puts("hello world");
+    #: integer;
+    y: integer = -123;
+    b: boolean = false;
+    c: char    = 'q';
+    s: string  = "hello bminor\n";
+    a: array [5] integer = {1,2,3,4,5};
+    months: array [12] string = {"January","February","March"};
+    x: integer = 65;
+    y: char = 'A';
+    if(x>y) // error: x and y are of different types!
+
+    f: integer = 0;
+    if(f)      // error: f is not a boolean!
+
+    writechar: function void ( char c );
+    a: integer = 65;
+    writechar(a);  // error: a is not a char!
+
+    b: array [2] boolean = {true,false};
+    x: integer = 0;
+    x = b[0];      // error: x is not a boolean!
+
+}
